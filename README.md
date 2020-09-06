@@ -30,6 +30,8 @@ Here's a walkthrough of implemented user stories:
 
 ![Video Walkthrough](http://g.recordit.co/KWso5lnlnw.gif)
 
+<img src="http://g.recordit.co/KWso5lnlnw.gif" title='Video Walkthrough' height='400' alt='Video Walkthrough'/>
+
 GIF created with [Recordit](http://www.recordit.co/).
 
 ## License
