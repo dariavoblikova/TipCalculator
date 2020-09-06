@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let basicFont = UIFont.systemFont(ofSize: 16)
+        let basicFont = UIFont.systemFont(ofSize: 17)
         let darkTurquoise = UIColor(rgb: 0x007C9B)
         let normalAttribute: [NSAttributedString.Key: Any] = [.font: basicFont, .foregroundColor: darkTurquoise as Any]
         tipControl.setTitleTextAttributes(normalAttribute, for: .normal)
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         totalLabel.textColor = darkTurquoise
         billField.textColor = darkTurquoise
         
-        let selectedFont = UIFont.boldSystemFont(ofSize: 16)
+        let selectedFont = UIFont.boldSystemFont(ofSize: 17)
         let selectedAttribute: [NSAttributedString.Key: Any] = [.font: selectedFont, .foregroundColor: UIColor(rgb: 0xf93949)]
         tipControl.setTitleTextAttributes(selectedAttribute, for: .selected)
     }
